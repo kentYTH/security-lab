@@ -1,0 +1,20 @@
+title: Account Lockout - Potential Brute Force
+id: b2c3d4e5-f6a7-8901-bcde-f12345678901
+status: experimental
+description: Detects account lockout events indicating potential brute force or password guessing activity
+author: Kent Yam
+date: 2026/08/05
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4740
+    condition: selection
+falsepositives:
+    - Legitimate users forgetting their password
+    - Misconfigured services using old credentials
+level: high
+tags:
+    - attack.credential_access
+    - attack.t1110.001

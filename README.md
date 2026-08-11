@@ -14,6 +14,8 @@ Detection rules mapped to MITRE ATT&CK framework.
 | Rule | Technique | Tactic |
 |---|---|---|
 | Password Spray | T1110.003 | Credential Access |
+|---|---|---|
+| Account Lockout | T1110.003 | Credential Access |
 
 ## Author
 Kent Yam — transitioning from Identity Governance into SOC and DFIR

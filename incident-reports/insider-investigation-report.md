@@ -20,8 +20,11 @@ against other systems. A forensic disk image was provided for investigation.
 
 ### Q1 — Which Linux distribution is being used on this machine?
 **Answer:** Kali
-**Finding:** The Linux distribution that is being used on the machines is Kali Linux. 
+
+**Finding:** The Linux distribution that is being used on the machines is Kali Linux.
+
 **Evidence location:** /boot/
+
 **Method:** Navigated to /boot in FTK Imager and inspected the list of files there which showed files such as "config-4.13.0-kali1-amd64" 
 
 ### Q2 — What is the MD5 hash of the Apache access.log file?

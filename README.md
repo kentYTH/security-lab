@@ -16,5 +16,11 @@ Detection rules mapped to MITRE ATT&CK framework.
 | Password Spray | T1110.003 | Credential Access |
 | Account Lockout | T1110.001 | Credential Access |
 
+## Incident Reports
+
+| Case | Platform | Tools | Date |
+|---|---|---|---|
+| Insider Investigation | CyberDefenders | FTK Imager | Aug 2026 |
+
 ## Author
 Kent Yam — transitioning from Identity Governance into SOC and DFIR
